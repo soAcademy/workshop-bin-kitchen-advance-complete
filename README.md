@@ -36,3 +36,16 @@ http://localhost:3000
 ## Resource
 
 [Figma Design](https://www.figma.com/file/8EFoDBlMh5HevK2bes3vMO/SoAcademy---Food-Menu-App?node-id=0%3A1)
+
+## Install Services API locally
+
+1. Install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+2. Clone repository [food-menu-api](https://github.com/soAcademy/food-menu-api)
+3. Run food-menu-api locally by running the command
+
+```
+cd food-menu-api
+docker-compose up -d --build
+yarn install
+yarn run start
+```
